@@ -42,13 +42,13 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.label5 = new System.Windows.Forms.Label();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.UpdateButton = new Guna.UI2.WinForms.Guna2Button();
+            this.DoctorsList = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.DeleteDoctor = new Guna.UI2.WinForms.Guna2Button();
+            this.UpdateDoctor = new Guna.UI2.WinForms.Guna2Button();
             this.Searchbutton = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.SeachDoctor = new Guna.UI2.WinForms.Guna2TextBox();
             this.AddDoctor = new Guna.UI2.WinForms.Guna2Button();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DoctorsList)).BeginInit();
             this.SuspendLayout();
             // 
             // label5
@@ -61,10 +61,10 @@
             this.label5.TabIndex = 25;
             this.label5.Text = "Doctor Details";
             // 
-            // guna2DataGridView1
+            // DoctorsList
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.DoctorsList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -72,9 +72,9 @@
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeight = 4;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DoctorsList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.DoctorsList.ColumnHeadersHeight = 30;
+            this.DoctorsList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -82,73 +82,75 @@
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(33, 146);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.RowHeadersWidth = 62;
-            this.guna2DataGridView1.RowTemplate.Height = 33;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(777, 418);
-            this.guna2DataGridView1.TabIndex = 24;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 33;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.DoctorsList.DefaultCellStyle = dataGridViewCellStyle3;
+            this.DoctorsList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DoctorsList.Location = new System.Drawing.Point(33, 146);
+            this.DoctorsList.Name = "DoctorsList";
+            this.DoctorsList.RowHeadersVisible = false;
+            this.DoctorsList.RowHeadersWidth = 62;
+            this.DoctorsList.RowTemplate.Height = 33;
+            this.DoctorsList.Size = new System.Drawing.Size(777, 418);
+            this.DoctorsList.TabIndex = 24;
+            this.DoctorsList.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.DoctorsList.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.DoctorsList.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.DoctorsList.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.DoctorsList.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.DoctorsList.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.DoctorsList.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DoctorsList.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.DoctorsList.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DoctorsList.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DoctorsList.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DoctorsList.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DoctorsList.ThemeStyle.HeaderStyle.Height = 30;
+            this.DoctorsList.ThemeStyle.ReadOnly = false;
+            this.DoctorsList.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.DoctorsList.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DoctorsList.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DoctorsList.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.DoctorsList.ThemeStyle.RowsStyle.Height = 33;
+            this.DoctorsList.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DoctorsList.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.DoctorsList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DoctorsList_CellContentClick);
             // 
-            // guna2Button1
+            // DeleteDoctor
             // 
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.CustomizableEdges = customizableEdges1;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Red;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(708, 77);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            this.guna2Button1.Size = new System.Drawing.Size(102, 37);
-            this.guna2Button1.TabIndex = 23;
-            this.guna2Button1.Text = "Delete";
+            this.DeleteDoctor.BorderRadius = 10;
+            this.DeleteDoctor.CustomizableEdges = customizableEdges1;
+            this.DeleteDoctor.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.DeleteDoctor.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.DeleteDoctor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.DeleteDoctor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.DeleteDoctor.FillColor = System.Drawing.Color.Red;
+            this.DeleteDoctor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DeleteDoctor.ForeColor = System.Drawing.Color.White;
+            this.DeleteDoctor.Location = new System.Drawing.Point(708, 77);
+            this.DeleteDoctor.Name = "DeleteDoctor";
+            this.DeleteDoctor.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            this.DeleteDoctor.Size = new System.Drawing.Size(102, 37);
+            this.DeleteDoctor.TabIndex = 23;
+            this.DeleteDoctor.Text = "Delete";
+            this.DeleteDoctor.Click += new System.EventHandler(this.DeleteDoctor_Click);
             // 
-            // UpdateButton
+            // UpdateDoctor
             // 
-            this.UpdateButton.BorderRadius = 10;
-            this.UpdateButton.CustomizableEdges = customizableEdges3;
-            this.UpdateButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.UpdateButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.UpdateButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.UpdateButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.UpdateButton.FillColor = System.Drawing.Color.DodgerBlue;
-            this.UpdateButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.UpdateButton.ForeColor = System.Drawing.Color.White;
-            this.UpdateButton.Location = new System.Drawing.Point(592, 77);
-            this.UpdateButton.Name = "UpdateButton";
-            this.UpdateButton.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.UpdateButton.Size = new System.Drawing.Size(102, 37);
-            this.UpdateButton.TabIndex = 22;
-            this.UpdateButton.Text = "Update";
-            this.UpdateButton.Click += new System.EventHandler(this.UpdateButton_Click);
+            this.UpdateDoctor.BorderRadius = 10;
+            this.UpdateDoctor.CustomizableEdges = customizableEdges3;
+            this.UpdateDoctor.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.UpdateDoctor.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.UpdateDoctor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.UpdateDoctor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.UpdateDoctor.FillColor = System.Drawing.Color.DodgerBlue;
+            this.UpdateDoctor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UpdateDoctor.ForeColor = System.Drawing.Color.White;
+            this.UpdateDoctor.Location = new System.Drawing.Point(592, 77);
+            this.UpdateDoctor.Name = "UpdateDoctor";
+            this.UpdateDoctor.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            this.UpdateDoctor.Size = new System.Drawing.Size(102, 37);
+            this.UpdateDoctor.TabIndex = 22;
+            this.UpdateDoctor.Text = "Update";
+            this.UpdateDoctor.Click += new System.EventHandler(this.UpdateButton_Click);
             // 
             // Searchbutton
             // 
@@ -168,27 +170,28 @@
             this.Searchbutton.TabIndex = 21;
             this.Searchbutton.Text = "Search";
             // 
-            // guna2TextBox1
+            // SeachDoctor
             // 
-            this.guna2TextBox1.BorderRadius = 10;
-            this.guna2TextBox1.CustomizableEdges = customizableEdges7;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(31, 77);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "Enter Patient Details...";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            this.guna2TextBox1.Size = new System.Drawing.Size(254, 37);
-            this.guna2TextBox1.TabIndex = 20;
+            this.SeachDoctor.BorderRadius = 10;
+            this.SeachDoctor.CustomizableEdges = customizableEdges7;
+            this.SeachDoctor.DefaultText = "";
+            this.SeachDoctor.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.SeachDoctor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.SeachDoctor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.SeachDoctor.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.SeachDoctor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.SeachDoctor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SeachDoctor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.SeachDoctor.Location = new System.Drawing.Point(31, 77);
+            this.SeachDoctor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.SeachDoctor.Name = "SeachDoctor";
+            this.SeachDoctor.PasswordChar = '\0';
+            this.SeachDoctor.PlaceholderText = "Enter Doctor Details...";
+            this.SeachDoctor.SelectedText = "";
+            this.SeachDoctor.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            this.SeachDoctor.Size = new System.Drawing.Size(254, 37);
+            this.SeachDoctor.TabIndex = 20;
+            this.SeachDoctor.TextChanged += new System.EventHandler(this.SeachDoctor_TextChanged);
             // 
             // AddDoctor
             // 
@@ -217,15 +220,15 @@
             this.ClientSize = new System.Drawing.Size(840, 600);
             this.Controls.Add(this.AddDoctor);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.guna2DataGridView1);
-            this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.UpdateButton);
+            this.Controls.Add(this.DoctorsList);
+            this.Controls.Add(this.DeleteDoctor);
+            this.Controls.Add(this.UpdateDoctor);
             this.Controls.Add(this.Searchbutton);
-            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.SeachDoctor);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Doctors";
             this.Text = "Doctors";
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DoctorsList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,11 +237,11 @@
         #endregion
 
         private Label label5;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button UpdateButton;
+        private Guna.UI2.WinForms.Guna2DataGridView DoctorsList;
+        private Guna.UI2.WinForms.Guna2Button DeleteDoctor;
+        private Guna.UI2.WinForms.Guna2Button UpdateDoctor;
         private Guna.UI2.WinForms.Guna2Button Searchbutton;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox SeachDoctor;
         private Guna.UI2.WinForms.Guna2Button AddDoctor;
     }
 }

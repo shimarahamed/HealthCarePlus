@@ -46,22 +46,25 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ReportButton = new Guna.UI2.WinForms.Guna2Button();
             this.DoctorButton = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.UsersButton = new Guna.UI2.WinForms.Guna2Button();
+            this.BillingButton = new Guna.UI2.WinForms.Guna2Button();
+            this.RoomsButton = new Guna.UI2.WinForms.Guna2Button();
+            this.ResourcesButton = new Guna.UI2.WinForms.Guna2Button();
+            this.StaffsButton = new Guna.UI2.WinForms.Guna2Button();
+            this.DashboardButton = new Guna.UI2.WinForms.Guna2Button();
             this.AppointmentsButton = new Guna.UI2.WinForms.Guna2Button();
             this.PatientsButton = new Guna.UI2.WinForms.Guna2Button();
-            this.logout = new System.Windows.Forms.Button();
+            this.logoutbutton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -79,26 +82,51 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkViolet;
+            this.panel1.Controls.Add(this.ReportButton);
             this.panel1.Controls.Add(this.DoctorButton);
-            this.panel1.Controls.Add(this.guna2Button6);
-            this.panel1.Controls.Add(this.guna2Button5);
-            this.panel1.Controls.Add(this.guna2Button4);
-            this.panel1.Controls.Add(this.guna2Button3);
-            this.panel1.Controls.Add(this.guna2Button2);
-            this.panel1.Controls.Add(this.guna2Button1);
+            this.panel1.Controls.Add(this.UsersButton);
+            this.panel1.Controls.Add(this.BillingButton);
+            this.panel1.Controls.Add(this.RoomsButton);
+            this.panel1.Controls.Add(this.ResourcesButton);
+            this.panel1.Controls.Add(this.StaffsButton);
+            this.panel1.Controls.Add(this.DashboardButton);
             this.panel1.Controls.Add(this.AppointmentsButton);
             this.panel1.Controls.Add(this.PatientsButton);
-            this.panel1.Controls.Add(this.logout);
+            this.panel1.Controls.Add(this.logoutbutton);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(0, -4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(244, 697);
             this.panel1.TabIndex = 0;
             // 
+            // ReportButton
+            // 
+            this.ReportButton.BorderRadius = 15;
+            this.ReportButton.CustomizableEdges = customizableEdges1;
+            this.ReportButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ReportButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ReportButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ReportButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ReportButton.FillColor = System.Drawing.Color.Transparent;
+            this.ReportButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ReportButton.ForeColor = System.Drawing.Color.White;
+            this.ReportButton.Image = global::HealthCarePlus.Properties.Resources.invoice;
+            this.ReportButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.ReportButton.ImageSize = new System.Drawing.Size(33, 33);
+            this.ReportButton.Location = new System.Drawing.Point(24, 594);
+            this.ReportButton.Name = "ReportButton";
+            this.ReportButton.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            this.ReportButton.Size = new System.Drawing.Size(209, 56);
+            this.ReportButton.TabIndex = 24;
+            this.ReportButton.Text = "Report";
+            this.ReportButton.TextOffset = new System.Drawing.Point(2, 0);
+            this.ReportButton.Click += new System.EventHandler(this.ReportButton_Click);
+            // 
             // DoctorButton
             // 
             this.DoctorButton.BorderRadius = 15;
-            this.DoctorButton.CustomizableEdges = customizableEdges1;
+            this.DoctorButton.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.DoctorButton.CustomizableEdges = customizableEdges3;
             this.DoctorButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.DoctorButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.DoctorButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -108,152 +136,158 @@
             this.DoctorButton.ForeColor = System.Drawing.Color.White;
             this.DoctorButton.Image = global::HealthCarePlus.Properties.Resources.doctor;
             this.DoctorButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.DoctorButton.ImageSize = new System.Drawing.Size(35, 35);
-            this.DoctorButton.Location = new System.Drawing.Point(24, 223);
+            this.DoctorButton.ImageSize = new System.Drawing.Size(33, 33);
+            this.DoctorButton.Location = new System.Drawing.Point(24, 202);
             this.DoctorButton.Name = "DoctorButton";
-            this.DoctorButton.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            this.DoctorButton.ShadowDecoration.CustomizableEdges = customizableEdges4;
             this.DoctorButton.Size = new System.Drawing.Size(198, 56);
             this.DoctorButton.TabIndex = 14;
             this.DoctorButton.Text = "Doctors";
             this.DoctorButton.TextOffset = new System.Drawing.Point(5, 0);
             this.DoctorButton.Click += new System.EventHandler(this.DoctorButton_Click);
             // 
-            // guna2Button6
+            // UsersButton
             // 
-            this.guna2Button6.BorderRadius = 15;
-            this.guna2Button6.CustomizableEdges = customizableEdges3;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Image = global::HealthCarePlus.Properties.Resources.users;
-            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button6.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2Button6.Location = new System.Drawing.Point(24, 518);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.guna2Button6.Size = new System.Drawing.Size(198, 56);
-            this.guna2Button6.TabIndex = 21;
-            this.guna2Button6.Text = "Users";
+            this.UsersButton.BorderRadius = 15;
+            this.UsersButton.CustomizableEdges = customizableEdges5;
+            this.UsersButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.UsersButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.UsersButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.UsersButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.UsersButton.FillColor = System.Drawing.Color.Transparent;
+            this.UsersButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UsersButton.ForeColor = System.Drawing.Color.White;
+            this.UsersButton.Image = global::HealthCarePlus.Properties.Resources.users;
+            this.UsersButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.UsersButton.ImageSize = new System.Drawing.Size(33, 33);
+            this.UsersButton.Location = new System.Drawing.Point(24, 482);
+            this.UsersButton.Name = "UsersButton";
+            this.UsersButton.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            this.UsersButton.Size = new System.Drawing.Size(198, 56);
+            this.UsersButton.TabIndex = 21;
+            this.UsersButton.Text = "Users";
+            this.UsersButton.Click += new System.EventHandler(this.UsersButton_Click);
             // 
-            // guna2Button5
+            // BillingButton
             // 
-            this.guna2Button5.BorderRadius = 15;
-            this.guna2Button5.CustomizableEdges = customizableEdges5;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Image = global::HealthCarePlus.Properties.Resources.bill;
-            this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button5.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2Button5.Location = new System.Drawing.Point(24, 577);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            this.guna2Button5.Size = new System.Drawing.Size(198, 56);
-            this.guna2Button5.TabIndex = 20;
-            this.guna2Button5.Text = "Billing";
-            this.guna2Button5.TextOffset = new System.Drawing.Point(5, 0);
+            this.BillingButton.BorderRadius = 15;
+            this.BillingButton.CustomizableEdges = customizableEdges7;
+            this.BillingButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BillingButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BillingButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BillingButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BillingButton.FillColor = System.Drawing.Color.Transparent;
+            this.BillingButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BillingButton.ForeColor = System.Drawing.Color.White;
+            this.BillingButton.Image = global::HealthCarePlus.Properties.Resources.bill;
+            this.BillingButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.BillingButton.ImageSize = new System.Drawing.Size(33, 33);
+            this.BillingButton.Location = new System.Drawing.Point(24, 538);
+            this.BillingButton.Name = "BillingButton";
+            this.BillingButton.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            this.BillingButton.Size = new System.Drawing.Size(198, 56);
+            this.BillingButton.TabIndex = 20;
+            this.BillingButton.Text = "Billing";
+            this.BillingButton.TextOffset = new System.Drawing.Point(5, 0);
+            this.BillingButton.Click += new System.EventHandler(this.BillingButton_Click);
             // 
-            // guna2Button4
+            // RoomsButton
             // 
-            this.guna2Button4.BorderRadius = 15;
-            this.guna2Button4.CustomizableEdges = customizableEdges7;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Image = global::HealthCarePlus.Properties.Resources.online_booking;
-            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2Button4.Location = new System.Drawing.Point(24, 341);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            this.guna2Button4.Size = new System.Drawing.Size(198, 56);
-            this.guna2Button4.TabIndex = 19;
-            this.guna2Button4.Text = "Rooms";
-            this.guna2Button4.TextOffset = new System.Drawing.Point(5, 0);
+            this.RoomsButton.BorderRadius = 15;
+            this.RoomsButton.CustomizableEdges = customizableEdges9;
+            this.RoomsButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.RoomsButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.RoomsButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.RoomsButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.RoomsButton.FillColor = System.Drawing.Color.Transparent;
+            this.RoomsButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RoomsButton.ForeColor = System.Drawing.Color.White;
+            this.RoomsButton.Image = global::HealthCarePlus.Properties.Resources.online_booking;
+            this.RoomsButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.RoomsButton.ImageSize = new System.Drawing.Size(33, 33);
+            this.RoomsButton.Location = new System.Drawing.Point(24, 314);
+            this.RoomsButton.Name = "RoomsButton";
+            this.RoomsButton.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            this.RoomsButton.Size = new System.Drawing.Size(198, 56);
+            this.RoomsButton.TabIndex = 19;
+            this.RoomsButton.Text = "Rooms";
+            this.RoomsButton.TextOffset = new System.Drawing.Point(5, 0);
+            this.RoomsButton.Click += new System.EventHandler(this.RoomsButton_Click);
             // 
-            // guna2Button3
+            // ResourcesButton
             // 
-            this.guna2Button3.BorderRadius = 15;
-            this.guna2Button3.CustomizableEdges = customizableEdges9;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Image = global::HealthCarePlus.Properties.Resources.resource;
-            this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button3.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2Button3.Location = new System.Drawing.Point(24, 400);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            this.guna2Button3.Size = new System.Drawing.Size(198, 56);
-            this.guna2Button3.TabIndex = 18;
-            this.guna2Button3.Text = "Resources";
-            this.guna2Button3.TextOffset = new System.Drawing.Point(15, 0);
+            this.ResourcesButton.BorderRadius = 15;
+            this.ResourcesButton.CustomizableEdges = customizableEdges11;
+            this.ResourcesButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ResourcesButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ResourcesButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ResourcesButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ResourcesButton.FillColor = System.Drawing.Color.Transparent;
+            this.ResourcesButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ResourcesButton.ForeColor = System.Drawing.Color.White;
+            this.ResourcesButton.Image = global::HealthCarePlus.Properties.Resources.resource;
+            this.ResourcesButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.ResourcesButton.ImageSize = new System.Drawing.Size(33, 33);
+            this.ResourcesButton.Location = new System.Drawing.Point(24, 370);
+            this.ResourcesButton.Name = "ResourcesButton";
+            this.ResourcesButton.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            this.ResourcesButton.Size = new System.Drawing.Size(198, 56);
+            this.ResourcesButton.TabIndex = 18;
+            this.ResourcesButton.Text = "Resources";
+            this.ResourcesButton.TextOffset = new System.Drawing.Point(15, 0);
+            this.ResourcesButton.Click += new System.EventHandler(this.ResourcesButton_Click);
             // 
-            // guna2Button2
+            // StaffsButton
             // 
-            this.guna2Button2.BorderRadius = 15;
-            this.guna2Button2.CustomizableEdges = customizableEdges11;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Image = global::HealthCarePlus.Properties.Resources.steward;
-            this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button2.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2Button2.Location = new System.Drawing.Point(24, 459);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            this.guna2Button2.Size = new System.Drawing.Size(198, 56);
-            this.guna2Button2.TabIndex = 17;
-            this.guna2Button2.Text = "Staffs";
+            this.StaffsButton.BorderRadius = 15;
+            this.StaffsButton.CustomizableEdges = customizableEdges13;
+            this.StaffsButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.StaffsButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.StaffsButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.StaffsButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.StaffsButton.FillColor = System.Drawing.Color.Transparent;
+            this.StaffsButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.StaffsButton.ForeColor = System.Drawing.Color.White;
+            this.StaffsButton.Image = global::HealthCarePlus.Properties.Resources.steward;
+            this.StaffsButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.StaffsButton.ImageSize = new System.Drawing.Size(33, 33);
+            this.StaffsButton.Location = new System.Drawing.Point(24, 426);
+            this.StaffsButton.Name = "StaffsButton";
+            this.StaffsButton.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            this.StaffsButton.Size = new System.Drawing.Size(198, 56);
+            this.StaffsButton.TabIndex = 17;
+            this.StaffsButton.Text = "Staffs";
+            this.StaffsButton.Click += new System.EventHandler(this.StaffsButton_Click);
             // 
-            // guna2Button1
+            // DashboardButton
             // 
-            this.guna2Button1.BorderRadius = 15;
-            this.guna2Button1.CustomizableEdges = customizableEdges13;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Image = global::HealthCarePlus.Properties.Resources.layout;
-            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.ImageOffset = new System.Drawing.Point(5, 0);
-            this.guna2Button1.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2Button1.Location = new System.Drawing.Point(16, 93);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            this.guna2Button1.Size = new System.Drawing.Size(215, 56);
-            this.guna2Button1.TabIndex = 16;
-            this.guna2Button1.Text = "Dashboard";
-            this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.TextOffset = new System.Drawing.Point(18, 0);
+            this.DashboardButton.BorderRadius = 15;
+            this.DashboardButton.CustomizableEdges = customizableEdges15;
+            this.DashboardButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.DashboardButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.DashboardButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.DashboardButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.DashboardButton.FillColor = System.Drawing.Color.White;
+            this.DashboardButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DashboardButton.ForeColor = System.Drawing.Color.Black;
+            this.DashboardButton.Image = global::HealthCarePlus.Properties.Resources.layout;
+            this.DashboardButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.DashboardButton.ImageOffset = new System.Drawing.Point(5, 0);
+            this.DashboardButton.ImageSize = new System.Drawing.Size(35, 35);
+            this.DashboardButton.Location = new System.Drawing.Point(16, 84);
+            this.DashboardButton.Name = "DashboardButton";
+            this.DashboardButton.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            this.DashboardButton.Size = new System.Drawing.Size(215, 56);
+            this.DashboardButton.TabIndex = 16;
+            this.DashboardButton.Text = "Dashboard";
+            this.DashboardButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.DashboardButton.TextOffset = new System.Drawing.Point(18, 0);
+            this.DashboardButton.Click += new System.EventHandler(this.DashboardButton_Click);
             // 
             // AppointmentsButton
             // 
             this.AppointmentsButton.BorderRadius = 15;
-            this.AppointmentsButton.CustomizableEdges = customizableEdges15;
+            this.AppointmentsButton.CustomizableEdges = customizableEdges17;
             this.AppointmentsButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.AppointmentsButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.AppointmentsButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -263,10 +297,10 @@
             this.AppointmentsButton.ForeColor = System.Drawing.Color.White;
             this.AppointmentsButton.Image = global::HealthCarePlus.Properties.Resources.appointment;
             this.AppointmentsButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.AppointmentsButton.ImageSize = new System.Drawing.Size(35, 35);
-            this.AppointmentsButton.Location = new System.Drawing.Point(24, 282);
+            this.AppointmentsButton.ImageSize = new System.Drawing.Size(33, 33);
+            this.AppointmentsButton.Location = new System.Drawing.Point(24, 258);
             this.AppointmentsButton.Name = "AppointmentsButton";
-            this.AppointmentsButton.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            this.AppointmentsButton.ShadowDecoration.CustomizableEdges = customizableEdges18;
             this.AppointmentsButton.Size = new System.Drawing.Size(198, 56);
             this.AppointmentsButton.TabIndex = 15;
             this.AppointmentsButton.Text = "Appointments";
@@ -278,7 +312,7 @@
             // 
             this.PatientsButton.BorderRadius = 15;
             this.PatientsButton.CheckedState.FillColor = System.Drawing.Color.White;
-            this.PatientsButton.CustomizableEdges = customizableEdges17;
+            this.PatientsButton.CustomizableEdges = customizableEdges19;
             this.PatientsButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.PatientsButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.PatientsButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -288,26 +322,28 @@
             this.PatientsButton.ForeColor = System.Drawing.Color.White;
             this.PatientsButton.Image = ((System.Drawing.Image)(resources.GetObject("PatientsButton.Image")));
             this.PatientsButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.PatientsButton.ImageSize = new System.Drawing.Size(35, 35);
-            this.PatientsButton.Location = new System.Drawing.Point(24, 164);
+            this.PatientsButton.ImageSize = new System.Drawing.Size(33, 33);
+            this.PatientsButton.Location = new System.Drawing.Point(24, 146);
             this.PatientsButton.Name = "PatientsButton";
-            this.PatientsButton.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            this.PatientsButton.ShadowDecoration.CustomizableEdges = customizableEdges20;
             this.PatientsButton.Size = new System.Drawing.Size(198, 56);
             this.PatientsButton.TabIndex = 13;
             this.PatientsButton.Text = "Patients";
             this.PatientsButton.TextOffset = new System.Drawing.Point(5, 0);
             this.PatientsButton.Click += new System.EventHandler(this.PatientsButton_Click);
             // 
-            // logout
+            // logoutbutton
             // 
-            this.logout.BackColor = System.Drawing.Color.Gold;
-            this.logout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.logout.Location = new System.Drawing.Point(42, 644);
-            this.logout.Name = "logout";
-            this.logout.Size = new System.Drawing.Size(154, 34);
-            this.logout.TabIndex = 3;
-            this.logout.Text = "Logout";
-            this.logout.UseVisualStyleBackColor = false;
+            this.logoutbutton.BackColor = System.Drawing.Color.Gold;
+            this.logoutbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.logoutbutton.FlatAppearance.BorderSize = 0;
+            this.logoutbutton.Location = new System.Drawing.Point(49, 655);
+            this.logoutbutton.Name = "logoutbutton";
+            this.logoutbutton.Size = new System.Drawing.Size(140, 34);
+            this.logoutbutton.TabIndex = 3;
+            this.logoutbutton.Text = "Logout";
+            this.logoutbutton.UseVisualStyleBackColor = false;
+            this.logoutbutton.Click += new System.EventHandler(this.logoutbutton_Click);
             // 
             // panel2
             // 
@@ -379,13 +415,13 @@
             this.guna2ImageButton1.Location = new System.Drawing.Point(1050, 5);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            this.guna2ImageButton1.ShadowDecoration.CustomizableEdges = customizableEdges23;
             this.guna2ImageButton1.Size = new System.Drawing.Size(55, 47);
             this.guna2ImageButton1.TabIndex = 15;
             // 
             // mainpanel
             // 
-            this.mainpanel.Location = new System.Drawing.Point(260, 78);
+            this.mainpanel.Location = new System.Drawing.Point(258, 80);
             this.mainpanel.Name = "mainpanel";
             this.mainpanel.Size = new System.Drawing.Size(840, 597);
             this.mainpanel.TabIndex = 16;
@@ -393,12 +429,12 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.guna2Panel1.CustomizableEdges = customizableEdges19;
+            this.guna2Panel1.CustomizableEdges = customizableEdges21;
             this.guna2Panel1.FillColor = System.Drawing.Color.DarkSlateBlue;
             this.guna2Panel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.guna2Panel1.Location = new System.Drawing.Point(244, 58);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            this.guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges22;
             this.guna2Panel1.Size = new System.Drawing.Size(866, 10);
             this.guna2Panel1.TabIndex = 17;
             // 
@@ -415,7 +451,10 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Menu";
-            this.Text = "Patient";
+            this.Text = "Billing";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Menu_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Menu_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Menu_MouseUp);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -430,7 +469,7 @@
 
         private Panel panel1;
         private Label label7;
-        private Button logout;
+        private Button logoutbutton;
         private Panel panel2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Panel panel7;
@@ -440,13 +479,14 @@
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
         private Guna.UI2.WinForms.Guna2Button DoctorButton;
         private Guna.UI2.WinForms.Guna2Button AppointmentsButton;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button BillingButton;
+        private Guna.UI2.WinForms.Guna2Button RoomsButton;
+        private Guna.UI2.WinForms.Guna2Button ResourcesButton;
+        private Guna.UI2.WinForms.Guna2Button StaffsButton;
+        private Guna.UI2.WinForms.Guna2Button DashboardButton;
         private Panel mainpanel;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private Guna.UI2.WinForms.Guna2Button UsersButton;
+        private Guna.UI2.WinForms.Guna2Button ReportButton;
     }
 }

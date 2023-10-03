@@ -28,49 +28,51 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            this.patientsGender = new Guna.UI2.WinForms.Guna2ComboBox();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            this.DrGender = new Guna.UI2.WinForms.Guna2ComboBox();
             this.BloodGroup = new System.Windows.Forms.Label();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.patientaddress = new Guna.UI2.WinForms.Guna2TextBox();
+            this.AddRecord = new Guna.UI2.WinForms.Guna2Button();
+            this.DrAddress = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.DrNIC = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.DrName = new Guna.UI2.WinForms.Guna2TextBox();
             this.patientname = new System.Windows.Forms.Label();
             this.adddoctorpage = new System.Windows.Forms.Label();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.DrEmail = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.DrDOB = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.DrPhone = new Guna.UI2.WinForms.Guna2TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.backbuttondoctor = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.DrQualification = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.DrSpecialization = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -81,25 +83,30 @@
             this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.DrTime = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.DrFee = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // patientsGender
+            // DrGender
             // 
-            this.patientsGender.BackColor = System.Drawing.Color.Transparent;
-            this.patientsGender.CustomizableEdges = customizableEdges1;
-            this.patientsGender.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.patientsGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.patientsGender.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.patientsGender.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.patientsGender.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.patientsGender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.patientsGender.ItemHeight = 30;
-            this.patientsGender.Location = new System.Drawing.Point(296, 131);
-            this.patientsGender.Name = "patientsGender";
-            this.patientsGender.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            this.patientsGender.Size = new System.Drawing.Size(237, 36);
-            this.patientsGender.TabIndex = 32;
+            this.DrGender.BackColor = System.Drawing.Color.Transparent;
+            this.DrGender.CustomizableEdges = customizableEdges26;
+            this.DrGender.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.DrGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DrGender.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrGender.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrGender.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DrGender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.DrGender.ItemHeight = 30;
+            this.DrGender.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.DrGender.Location = new System.Drawing.Point(296, 131);
+            this.DrGender.Name = "DrGender";
+            this.DrGender.ShadowDecoration.CustomizableEdges = customizableEdges27;
+            this.DrGender.Size = new System.Drawing.Size(237, 36);
+            this.DrGender.TabIndex = 32;
             // 
             // BloodGroup
             // 
@@ -112,44 +119,45 @@
             this.BloodGroup.Text = "Date of Birth";
             this.BloodGroup.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // guna2Button2
+            // AddRecord
             // 
-            this.guna2Button2.BorderRadius = 10;
-            this.guna2Button2.CustomizableEdges = customizableEdges3;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(206)))), ((int)(((byte)(107)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(337, 507);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.guna2Button2.Size = new System.Drawing.Size(162, 37);
-            this.guna2Button2.TabIndex = 29;
-            this.guna2Button2.Text = "Add Record";
+            this.AddRecord.BorderRadius = 10;
+            this.AddRecord.CustomizableEdges = customizableEdges28;
+            this.AddRecord.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.AddRecord.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.AddRecord.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AddRecord.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.AddRecord.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(206)))), ((int)(((byte)(107)))));
+            this.AddRecord.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AddRecord.ForeColor = System.Drawing.Color.White;
+            this.AddRecord.Location = new System.Drawing.Point(337, 507);
+            this.AddRecord.Name = "AddRecord";
+            this.AddRecord.ShadowDecoration.CustomizableEdges = customizableEdges29;
+            this.AddRecord.Size = new System.Drawing.Size(162, 37);
+            this.AddRecord.TabIndex = 29;
+            this.AddRecord.Text = "Add Record";
+            this.AddRecord.Click += new System.EventHandler(this.AddRecord_Click);
             // 
-            // patientaddress
+            // DrAddress
             // 
-            this.patientaddress.CustomizableEdges = customizableEdges5;
-            this.patientaddress.DefaultText = "";
-            this.patientaddress.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.patientaddress.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.patientaddress.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.patientaddress.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.patientaddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.patientaddress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.patientaddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.patientaddress.Location = new System.Drawing.Point(296, 406);
-            this.patientaddress.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.patientaddress.Name = "patientaddress";
-            this.patientaddress.PasswordChar = '\0';
-            this.patientaddress.PlaceholderText = "Enter Address";
-            this.patientaddress.SelectedText = "";
-            this.patientaddress.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            this.patientaddress.Size = new System.Drawing.Size(237, 49);
-            this.patientaddress.TabIndex = 28;
+            this.DrAddress.CustomizableEdges = customizableEdges30;
+            this.DrAddress.DefaultText = "";
+            this.DrAddress.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.DrAddress.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.DrAddress.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DrAddress.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DrAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrAddress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DrAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrAddress.Location = new System.Drawing.Point(296, 406);
+            this.DrAddress.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DrAddress.Name = "DrAddress";
+            this.DrAddress.PasswordChar = '\0';
+            this.DrAddress.PlaceholderText = "Enter Address";
+            this.DrAddress.SelectedText = "";
+            this.DrAddress.ShadowDecoration.CustomizableEdges = customizableEdges31;
+            this.DrAddress.Size = new System.Drawing.Size(237, 49);
+            this.DrAddress.TabIndex = 28;
             // 
             // label3
             // 
@@ -173,26 +181,26 @@
             this.label2.Text = "Gender";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // guna2TextBox3
+            // DrNIC
             // 
-            this.guna2TextBox3.CustomizableEdges = customizableEdges7;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(22, 222);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "Enter Last Name";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            this.guna2TextBox3.Size = new System.Drawing.Size(237, 31);
-            this.guna2TextBox3.TabIndex = 25;
+            this.DrNIC.CustomizableEdges = customizableEdges32;
+            this.DrNIC.DefaultText = "";
+            this.DrNIC.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.DrNIC.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.DrNIC.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DrNIC.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DrNIC.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrNIC.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DrNIC.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrNIC.Location = new System.Drawing.Point(22, 222);
+            this.DrNIC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DrNIC.Name = "DrNIC";
+            this.DrNIC.PasswordChar = '\0';
+            this.DrNIC.PlaceholderText = "Enter NIC";
+            this.DrNIC.SelectedText = "";
+            this.DrNIC.ShadowDecoration.CustomizableEdges = customizableEdges33;
+            this.DrNIC.Size = new System.Drawing.Size(237, 31);
+            this.DrNIC.TabIndex = 25;
             // 
             // label1
             // 
@@ -205,26 +213,26 @@
             this.label1.Text = "NIC";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // guna2TextBox2
+            // DrName
             // 
-            this.guna2TextBox2.CustomizableEdges = customizableEdges9;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(22, 131);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "Enter First Name";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            this.guna2TextBox2.Size = new System.Drawing.Size(237, 31);
-            this.guna2TextBox2.TabIndex = 23;
+            this.DrName.CustomizableEdges = customizableEdges34;
+            this.DrName.DefaultText = "";
+            this.DrName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.DrName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.DrName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DrName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DrName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DrName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrName.Location = new System.Drawing.Point(22, 131);
+            this.DrName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DrName.Name = "DrName";
+            this.DrName.PasswordChar = '\0';
+            this.DrName.PlaceholderText = "Enter Name";
+            this.DrName.SelectedText = "";
+            this.DrName.ShadowDecoration.CustomizableEdges = customizableEdges35;
+            this.DrName.Size = new System.Drawing.Size(237, 31);
+            this.DrName.TabIndex = 23;
             // 
             // patientname
             // 
@@ -249,26 +257,26 @@
             this.adddoctorpage.Text = "Add Doctor Details";
             this.adddoctorpage.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // guna2TextBox1
+            // DrEmail
             // 
-            this.guna2TextBox1.CustomizableEdges = customizableEdges11;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(22, 406);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "Enter Email Address";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            this.guna2TextBox1.Size = new System.Drawing.Size(237, 31);
-            this.guna2TextBox1.TabIndex = 34;
+            this.DrEmail.CustomizableEdges = customizableEdges36;
+            this.DrEmail.DefaultText = "";
+            this.DrEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.DrEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.DrEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DrEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DrEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrEmail.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DrEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrEmail.Location = new System.Drawing.Point(22, 406);
+            this.DrEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DrEmail.Name = "DrEmail";
+            this.DrEmail.PasswordChar = '\0';
+            this.DrEmail.PlaceholderText = "Enter Email Address";
+            this.DrEmail.SelectedText = "";
+            this.DrEmail.ShadowDecoration.CustomizableEdges = customizableEdges37;
+            this.DrEmail.Size = new System.Drawing.Size(237, 31);
+            this.DrEmail.TabIndex = 34;
             // 
             // label4
             // 
@@ -281,42 +289,42 @@
             this.label4.Text = "Email";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // guna2DateTimePicker1
+            // DrDOB
             // 
-            this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.CustomizableEdges = customizableEdges13;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.Silver;
-            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(296, 222);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(2023, 9, 14, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(237, 36);
-            this.guna2DateTimePicker1.TabIndex = 35;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2023, 9, 14, 2, 53, 50, 681);
+            this.DrDOB.Checked = true;
+            this.DrDOB.CustomizableEdges = customizableEdges38;
+            this.DrDOB.FillColor = System.Drawing.Color.Silver;
+            this.DrDOB.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DrDOB.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DrDOB.Location = new System.Drawing.Point(296, 222);
+            this.DrDOB.MaxDate = new System.DateTime(2023, 9, 15, 0, 0, 0, 0);
+            this.DrDOB.MinDate = new System.DateTime(1960, 1, 1, 0, 0, 0, 0);
+            this.DrDOB.Name = "DrDOB";
+            this.DrDOB.ShadowDecoration.CustomizableEdges = customizableEdges39;
+            this.DrDOB.Size = new System.Drawing.Size(237, 36);
+            this.DrDOB.TabIndex = 35;
+            this.DrDOB.Value = new System.DateTime(2023, 9, 14, 2, 53, 50, 681);
             // 
-            // guna2TextBox4
+            // DrPhone
             // 
-            this.guna2TextBox4.CustomizableEdges = customizableEdges15;
-            this.guna2TextBox4.DefaultText = "";
-            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Location = new System.Drawing.Point(22, 312);
-            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2TextBox4.Name = "guna2TextBox4";
-            this.guna2TextBox4.PasswordChar = '\0';
-            this.guna2TextBox4.PlaceholderText = "Enter Phone No.";
-            this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            this.guna2TextBox4.Size = new System.Drawing.Size(237, 31);
-            this.guna2TextBox4.TabIndex = 37;
+            this.DrPhone.CustomizableEdges = customizableEdges40;
+            this.DrPhone.DefaultText = "";
+            this.DrPhone.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.DrPhone.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.DrPhone.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DrPhone.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DrPhone.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrPhone.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DrPhone.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrPhone.Location = new System.Drawing.Point(22, 312);
+            this.DrPhone.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DrPhone.Name = "DrPhone";
+            this.DrPhone.PasswordChar = '\0';
+            this.DrPhone.PlaceholderText = "Enter Phone No.";
+            this.DrPhone.SelectedText = "";
+            this.DrPhone.ShadowDecoration.CustomizableEdges = customizableEdges41;
+            this.DrPhone.Size = new System.Drawing.Size(237, 31);
+            this.DrPhone.TabIndex = 37;
             // 
             // label5
             // 
@@ -340,27 +348,31 @@
             this.backbuttondoctor.Location = new System.Drawing.Point(18, 15);
             this.backbuttondoctor.Name = "backbuttondoctor";
             this.backbuttondoctor.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.backbuttondoctor.ShadowDecoration.CustomizableEdges = customizableEdges17;
+            this.backbuttondoctor.ShadowDecoration.CustomizableEdges = customizableEdges42;
             this.backbuttondoctor.Size = new System.Drawing.Size(38, 39);
             this.backbuttondoctor.TabIndex = 40;
             this.backbuttondoctor.Click += new System.EventHandler(this.backbuttondoctor_Click);
             // 
-            // guna2ComboBox1
+            // DrQualification
             // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.CustomizableEdges = customizableEdges18;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(296, 312);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges19;
-            this.guna2ComboBox1.Size = new System.Drawing.Size(237, 36);
-            this.guna2ComboBox1.TabIndex = 42;
+            this.DrQualification.BackColor = System.Drawing.Color.Transparent;
+            this.DrQualification.CustomizableEdges = customizableEdges43;
+            this.DrQualification.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.DrQualification.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DrQualification.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrQualification.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrQualification.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DrQualification.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.DrQualification.ItemHeight = 30;
+            this.DrQualification.Items.AddRange(new object[] {
+            "MBBS",
+            "MD",
+            "MS"});
+            this.DrQualification.Location = new System.Drawing.Point(296, 312);
+            this.DrQualification.Name = "DrQualification";
+            this.DrQualification.ShadowDecoration.CustomizableEdges = customizableEdges44;
+            this.DrQualification.Size = new System.Drawing.Size(237, 36);
+            this.DrQualification.TabIndex = 42;
             // 
             // label7
             // 
@@ -373,22 +385,28 @@
             this.label7.Text = "Qualification";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // guna2ComboBox2
+            // DrSpecialization
             // 
-            this.guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox2.CustomizableEdges = customizableEdges20;
-            this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox2.ItemHeight = 30;
-            this.guna2ComboBox2.Location = new System.Drawing.Point(575, 131);
-            this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.ShadowDecoration.CustomizableEdges = customizableEdges21;
-            this.guna2ComboBox2.Size = new System.Drawing.Size(237, 36);
-            this.guna2ComboBox2.TabIndex = 44;
+            this.DrSpecialization.BackColor = System.Drawing.Color.Transparent;
+            this.DrSpecialization.CustomizableEdges = customizableEdges45;
+            this.DrSpecialization.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.DrSpecialization.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DrSpecialization.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrSpecialization.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrSpecialization.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DrSpecialization.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.DrSpecialization.ItemHeight = 30;
+            this.DrSpecialization.Items.AddRange(new object[] {
+            "General Physician",
+            "Cardiologist",
+            "Dentist",
+            "Dermatologist",
+            "Neurologist"});
+            this.DrSpecialization.Location = new System.Drawing.Point(575, 131);
+            this.DrSpecialization.Name = "DrSpecialization";
+            this.DrSpecialization.ShadowDecoration.CustomizableEdges = customizableEdges46;
+            this.DrSpecialization.Size = new System.Drawing.Size(237, 36);
+            this.DrSpecialization.TabIndex = 44;
             // 
             // label8
             // 
@@ -396,9 +414,9 @@
             this.label8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label8.Location = new System.Drawing.Point(575, 98);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(110, 25);
+            this.label8.Size = new System.Drawing.Size(119, 25);
             this.label8.TabIndex = 43;
-            this.label8.Text = "Specilization";
+            this.label8.Text = "Specialization";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // checkBox1
@@ -493,29 +511,88 @@
             this.label6.Text = "Available Time";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // guna2ComboBox3
+            // DrTime
             // 
-            this.guna2ComboBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox3.CustomizableEdges = customizableEdges22;
-            this.guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox3.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox3.ItemHeight = 30;
-            this.guna2ComboBox3.Location = new System.Drawing.Point(575, 406);
-            this.guna2ComboBox3.Name = "guna2ComboBox3";
-            this.guna2ComboBox3.ShadowDecoration.CustomizableEdges = customizableEdges23;
-            this.guna2ComboBox3.Size = new System.Drawing.Size(237, 36);
-            this.guna2ComboBox3.TabIndex = 54;
+            this.DrTime.BackColor = System.Drawing.Color.Transparent;
+            this.DrTime.CustomizableEdges = customizableEdges47;
+            this.DrTime.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.DrTime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DrTime.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrTime.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrTime.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DrTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.DrTime.ItemHeight = 30;
+            this.DrTime.Items.AddRange(new object[] {
+            "12:00 AM - 1:00 AM",
+            "1:00 AM - 2:00 AM",
+            "2:00 AM - 3:00 AM",
+            "3:00 AM - 4:00 AM",
+            "4:00 AM - 5:00 AM",
+            "5:00 AM - 6:00 AM",
+            "6:00 AM - 7:00 AM",
+            "7:00 AM - 8:00 AM",
+            "8:00 AM - 9:00 AM",
+            "9:00 AM - 10:00 AM",
+            "10:00 AM - 11:00 AM",
+            "11:00 AM - 12:00 PM",
+            "12:00 PM - 1:00 PM",
+            "1:00 PM - 2:00 PM",
+            "2:00 PM - 3:00 PM",
+            "3:00 PM - 4:00 PM",
+            "4:00 PM - 5:00 PM",
+            "5:00 PM - 6:00 PM",
+            "6:00 PM - 7:00 PM",
+            "7:00 PM - 8:00 PM",
+            "8:00 PM - 9:00 PM",
+            "9:00 PM - 10:00 PM",
+            "10:00 PM - 11:00 PM",
+            "11:00 PM - 12:00 AM"});
+            this.DrTime.Location = new System.Drawing.Point(575, 406);
+            this.DrTime.Name = "DrTime";
+            this.DrTime.ShadowDecoration.CustomizableEdges = customizableEdges48;
+            this.DrTime.Size = new System.Drawing.Size(237, 36);
+            this.DrTime.TabIndex = 54;
+            // 
+            // DrFee
+            // 
+            this.DrFee.CustomizableEdges = customizableEdges49;
+            this.DrFee.DefaultText = "";
+            this.DrFee.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.DrFee.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.DrFee.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DrFee.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.DrFee.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrFee.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DrFee.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DrFee.Location = new System.Drawing.Point(575, 495);
+            this.DrFee.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DrFee.Name = "DrFee";
+            this.DrFee.PasswordChar = '\0';
+            this.DrFee.PlaceholderText = "Enter Doctor Fee";
+            this.DrFee.SelectedText = "";
+            this.DrFee.ShadowDecoration.CustomizableEdges = customizableEdges50;
+            this.DrFee.Size = new System.Drawing.Size(237, 31);
+            this.DrFee.TabIndex = 56;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label10.Location = new System.Drawing.Point(575, 462);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(99, 25);
+            this.label10.TabIndex = 55;
+            this.label10.Text = "Doctor Fee";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // AddDoctor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(838, 594);
-            this.Controls.Add(this.guna2ComboBox3);
+            this.Controls.Add(this.DrFee);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.DrTime);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.checkBox7);
             this.Controls.Add(this.checkBox6);
@@ -525,25 +602,25 @@
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.guna2ComboBox2);
+            this.Controls.Add(this.DrSpecialization);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.guna2ComboBox1);
+            this.Controls.Add(this.DrQualification);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.backbuttondoctor);
-            this.Controls.Add(this.guna2TextBox4);
+            this.Controls.Add(this.DrPhone);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.guna2DateTimePicker1);
-            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.DrDOB);
+            this.Controls.Add(this.DrEmail);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.patientsGender);
+            this.Controls.Add(this.DrGender);
             this.Controls.Add(this.BloodGroup);
-            this.Controls.Add(this.guna2Button2);
-            this.Controls.Add(this.patientaddress);
+            this.Controls.Add(this.AddRecord);
+            this.Controls.Add(this.DrAddress);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.guna2TextBox3);
+            this.Controls.Add(this.DrNIC);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.guna2TextBox2);
+            this.Controls.Add(this.DrName);
             this.Controls.Add(this.patientname);
             this.Controls.Add(this.adddoctorpage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -557,26 +634,26 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2ComboBox patientsGender;
+        private Guna.UI2.WinForms.Guna2ComboBox DrGender;
         private Label BloodGroup;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2TextBox patientaddress;
+        private Guna.UI2.WinForms.Guna2Button AddRecord;
+        private Guna.UI2.WinForms.Guna2TextBox DrAddress;
         private Label label3;
         private Label label2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2TextBox DrNIC;
         private Label label1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox DrName;
         private Label patientname;
         private Label adddoctorpage;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox DrEmail;
         private Label label4;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
+        private Guna.UI2.WinForms.Guna2DateTimePicker DrDOB;
+        private Guna.UI2.WinForms.Guna2TextBox DrPhone;
         private Label label5;
         private Guna.UI2.WinForms.Guna2ImageButton backbuttondoctor;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox DrQualification;
         private Label label7;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
+        private Guna.UI2.WinForms.Guna2ComboBox DrSpecialization;
         private Label label8;
         private CheckBox checkBox1;
         private Label label9;
@@ -587,6 +664,8 @@
         private CheckBox checkBox6;
         private CheckBox checkBox7;
         private Label label6;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
+        private Guna.UI2.WinForms.Guna2ComboBox DrTime;
+        private Guna.UI2.WinForms.Guna2TextBox DrFee;
+        private Label label10;
     }
 }
